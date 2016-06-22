@@ -1,5 +1,5 @@
 ## Setup
-First you need to install (SBT)[http://www.scala-sbt.org/].  SBT will install the other dependencies.
+First you need to install [SBT](http://www.scala-sbt.org/).  SBT will install the other dependencies.
 
 Also, you'll need to extract the synthetic population files generated from PUMS data.  You'll find these in the `src/main/resources` folder.  Extract using tar.
 
