@@ -1,0 +1,1004 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY OBO_REL "http://purl.org/obo/owl/OBO_REL#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/dwelch/ontologies/2015/5/untitled-ontology-52#"
+     xml:base="http://www.semanticweb.org/dwelch/ontologies/2015/5/untitled-ontology-52"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:OBO_REL="http://purl.org/obo/owl/OBO_REL#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/dwelch/ontologies/2015/5/untitled-ontology-52">
+        <dc:title xml:lang="en">Synthetic Ecosystem Individuals</dc:title>
+        <owl:imports rdf:resource="&obo;omrse.owl"/>
+        <owl:imports rdf:resource="&obo;apollo_sv/dev/apollo_sv.owl"/>
+        <owl:imports rdf:resource="&obo;omrse/dao.owl"/>
+    </owl:Ontology>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000179 -->
+
+    <rdf:Description rdf:about="&obo;BFO_0000179">
+        <rdfs:label xml:lang="en">BFO OWL specification label</rdfs:label>
+    </rdf:Description>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000180 -->
+
+    <rdf:Description rdf:about="&obo;BFO_0000180">
+        <rdfs:label xml:lang="en">BFO CLIF specification label</rdfs:label>
+    </rdf:Description>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000111">
+        <rdfs:label>editor preferred term</rdfs:label>
+        <rdfs:label xml:lang="en">editor preferred label</rdfs:label>
+        <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
+    </rdf:Description>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000112">
+        <rdfs:label xml:lang="en">example of usage</rdfs:label>
+    </rdf:Description>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000114">
+        <rdfs:label xml:lang="en">has curation status</rdfs:label>
+    </rdf:Description>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000115">
+        <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">textual definition</rdfs:label>
+        <rdfs:label>definition</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+    </rdf:Description>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000116">
+        <rdfs:label xml:lang="en">editor note</rdfs:label>
+    </rdf:Description>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000117">
+        <rdfs:label rdf:datatype="&xsd;string">definition editor</rdfs:label>
+        <rdfs:label>definition editor</rdfs:label>
+        <rdfs:label xml:lang="en">definition editor</rdfs:label>
+        <rdfs:label xml:lang="en">term editor</rdfs:label>
+    </rdf:Description>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000118">
+        <rdfs:label xml:lang="en">alternative term</rdfs:label>
+    </rdf:Description>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000119">
+        <rdfs:label rdf:datatype="&xsd;string">definition source</rdfs:label>
+        <rdfs:label>definition source</rdfs:label>
+        <rdfs:label xml:lang="en">definition source</rdfs:label>
+    </rdf:Description>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000231 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000231">
+        <rdfs:label xml:lang="en">has obsolescence reason</rdfs:label>
+    </rdf:Description>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </rdf:Description>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000600 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000600">
+        <rdfs:label xml:lang="en">elucidation</rdfs:label>
+    </rdf:Description>
+
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <rdf:Description rdf:about="&rdfs;label">
+        <rdfs:label>label</rdfs:label>
+    </rdf:Description>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000155 -->
+
+    <owl:ObjectProperty rdf:about="&obo;BFO_0000155">
+        <rdfs:label xml:lang="en">occupies temporal region</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/bfo.owl</obo:IAO_0000412>
+        <obo:BFO_0000179>spans</obo:BFO_0000179>
+        <obo:BFO_0000180>occupiesTemporalRegion</obo:BFO_0000180>
+        <obo:IAO_0000600 xml:lang="en">p occupies_temporal_region t. This is a primitive relation between an occurrent p and the temporal region t upon which the spatiotemporal region p occupies_spatiotemporal_region projects. (axiom label in BFO2 Reference: [132-001])</obo:IAO_0000600>
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000294 -->
+
+    <owl:ObjectProperty rdf:about="&obo;OBI_0000294">
+        <rdfs:label xml:lang="en">obsolete_is_concretization_of</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Is a relationship between a generically dependent continuant and a specifically dependent continuant. A generically dependent continuant may inhere in more than one entity. It does so by virtue of the fact that there is, for each entity that it inheres, a specifically dependent *concretization* of the generically dependent continuant that is specifically dependent. For instance, consider a story, which is an information artifact that inheres in some number of books. Each book bears some quality that carries the story. The relation between this quality and the generically dependent continuant is that the former is the concretization of the latter.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Alan Ruttenburg</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Barry Smith</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
+        <obo:IAO_0000116 rdf:datatype="&xsd;string">replaced by: http://purl.obolibrary.org/obo/BFO_0000058</obo:IAO_0000116>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+        <obo:IAO_0000111 xml:lang="en">obsolete_is_concretization_of</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
+        <obo:IAO_0000231 rdf:resource="&obo;IAO_0000228"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002217 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002217">
+        <rdfs:label xml:lang="en">actively participates in</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000118>agent in</obo:IAO_0000118>
+        <obo:IAO_0000115>x actively participates in y if and only if x participates in y and x realizes some active role</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0000056"/>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000456 -->
+
+    <owl:ObjectProperty rdf:about="&obo;SYNTH_ECO_00000456">
+        <rdfs:label xml:lang="en">has last temporal instant</rdfs:label>
+        <rdfs:domain rdf:resource="&obo;BFO_0000038"/>
+        <rdfs:range rdf:resource="&obo;BFO_0000148"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002222"/>
+    </owl:ObjectProperty>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36044 -->
+
+    <rdf:Description rdf:about="&obo;CHEBI_36044">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+    </rdf:Description>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000442 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000442">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+    </rdf:Description>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0021004 -->
+
+    <owl:Class rdf:about="&obo;IAO_0021004">
+        <rdfs:label xml:lang="en">socio-legal generically dependent continuant</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obofoundry.org/obo/iao/d-acts.owl</obo:IAO_0000412>
+        <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">Socio-legal generically dependent continuants are generically dependent continuants that come into existence through declarations and are concretized as roles. They differ from information content entities in  that they are not about something, but exist as quasi-abstract social entities. Socio-legal generically dependent continuants are not concretized as qualities inhering in independent continuants, but only as realizable entities borne by an organism or an aggregate of organisms. </obo:IAO_0000115>
+        <obo:IAO_0000112 xml:lang="en">the claim of a piece of land, the obligation to pay rent to the owner of a rental property</obo:IAO_0000112>
+    </owl:Class>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0021005 -->
+
+    <owl:Class rdf:about="&obo;IAO_0021005">
+        <rdfs:label xml:lang="en">declaration</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obofoundry.org/obo/iao/d-acts.owl</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">A social act that brings about, transfers or revokes a socio-legal generically dependent continuant. Declarations do not depend on words spoken or written, but sometimes are merely actions, for instance the signing of a document.
+</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000112 xml:lang="en">my consenting verbally to buy a used TV set for $ 500, Jane Doe&apos;s signing of the divorce papers, John Robie&apos;s taking of Mrs. Steven&apos;s jewels</obo:IAO_0000112>
+    </owl:Class>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000007 -->
+
+    <rdf:Description rdf:about="&obo;OMRSE_00000007">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+    </rdf:Description>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000024 -->
+
+    <rdf:Description rdf:about="&obo;OMRSE_00000024">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+    </rdf:Description>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000026 -->
+
+    <rdf:Description rdf:about="&obo;OMRSE_00000026">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+    </rdf:Description>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000055 -->
+
+    <rdf:Description rdf:about="&obo;OMRSE_00000055">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+    </rdf:Description>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000061 -->
+
+    <rdf:Description rdf:about="&obo;OMRSE_00000061">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+    </rdf:Description>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000062 -->
+
+    <owl:Class rdf:about="&obo;OMRSE_00000062">
+        <rdfs:label xml:lang="en">facility</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">An architectural structure that bears some function.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+    </owl:Class>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000074 -->
+
+    <owl:Class rdf:about="&obo;OMRSE_00000074">
+        <rdfs:label xml:lang="en">housing unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000062"/>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">A material entity that has as parts one or more sites large enough to contain humans, has as part one or more material entities that separates it from other sites, and bears a residence function.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Amanda Hicks</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Housing units are individuated by their residence functions.</rdfs:comment>
+        <obo:IAO_0000119 xml:lang="en">https://github.com/ufbmi/OMRSE/wiki/Housing-unit-and-Household</obo:IAO_0000119>
+    </owl:Class>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000076 -->
+
+    <owl:Class rdf:about="&obo;OMRSE_00000076">
+        <rdfs:label xml:lang="en">household</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000023"/>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">A human or collection of humans that occupies a housing unit by storing their possessions there and habitually sleeping there thereby participating in the realization of its residence function.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Amanda Hicks</obo:IAO_0000117>
+    </owl:Class>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000077 -->
+
+    <owl:Class rdf:about="&obo;OMRSE_00000077">
+        <rdfs:label xml:lang="en">employee role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000001"/>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000118>employee</obo:IAO_0000118>
+        <obo:IAO_0000117>Amanda hicks</obo:IAO_0000117>
+    </owl:Class>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000078 -->
+
+    <owl:Class rdf:about="&obo;OMRSE_00000078">
+        <rdfs:label xml:lang="en">workplace facility</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000062"/>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <obo:IAO_0000117 xml:lang="en">Amanda Hicks</obo:IAO_0000117>
+    </owl:Class>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000081 -->
+
+    <owl:Class rdf:about="&obo;OMRSE_00000081">
+        <rdfs:label xml:lang="en">US census householder role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000001"/>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">A US Census householder role is a human social role  that is realized by that person being a member of a household and either owning or renting the housing unit in which that household resides and being designated as the householder. If there is only one member of the household who owns or rents the housing unit, that person is designated the householder by default.</rdfs:comment>
+        <obo:IAO_0000117>Amanda Hicks</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">http://www.census.gov/cps/about/cpsdef.html
+
+last accessed on June 30, 2015</obo:IAO_0000119>
+    </owl:Class>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000433 -->
+
+    <owl:Class rdf:about="&obo;SYNTH_ECO_00000433">
+        <rdfs:label xml:lang="en">age measurement datum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000416"/>
+    </owl:Class>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000005 -->
+
+    <owl:NamedIndividual rdf:about="&obo;OMRSE_00000005"/>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000002 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000002">
+        <rdf:type rdf:resource="&obo;OMRSE_00000005"/>
+        <rdfs:label>person 230596244 party to a marriage contract role</rdfs:label>
+        <obo:IAO_0000111 xml:lang="en">person 230596244 party to a marriage contract role</obo:IAO_0000111>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000003 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000003">
+        <rdf:type rdf:resource="&obo;OMRSE_00000005"/>
+        <obo:IAO_0000111 xml:lang="en">person 230596245 party to a marriage contract role</obo:IAO_0000111>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000409 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000409">
+        <rdf:type rdf:resource="&obo;SYNTH_ECO_00000433"/>
+        <rdfs:label xml:lang="en">age measurement datum at last temporal instance of temporal interval of history of 230596245</rdfs:label>
+        <obo:OBI_0001938 rdf:resource="&obo;SYNTH_ECO_00000412"/>
+        <obo:IAO_0000136 rdf:resource="&obo;SYNTH_ECO_00000415"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000410 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000410">
+        <rdf:type rdf:resource="&obo;SYNTH_ECO_00000433"/>
+        <rdfs:label xml:lang="en">age measurement datum at last temporal instance of temporal interval of history of 230596244</rdfs:label>
+        <obo:IAO_0000136 rdf:resource="&obo;SYNTH_ECO_00000413"/>
+        <obo:OBI_0001938 rdf:resource="&obo;SYNTH_ECO_00000417"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000411 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000411">
+        <rdf:type rdf:resource="&obo;SYNTH_ECO_00000433"/>
+        <rdfs:label xml:lang="en">age measurement datum at last temporal instance of temporal interval of history of 230596243</rdfs:label>
+        <obo:IAO_0000136 rdf:resource="&obo;SYNTH_ECO_00000416"/>
+        <obo:OBI_0001938 rdf:resource="&obo;SYNTH_ECO_00000418"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000412 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000412">
+        <rdf:type rdf:resource="&obo;OBI_0001933"/>
+        <rdfs:label xml:lang="en">42 year value specification</rdfs:label>
+        <obo:IAO_0000004 rdf:datatype="&xsd;float">42.0</obo:IAO_0000004>
+        <obo:IAO_0000039 rdf:resource="&obo;SYNTH_ECO_00000432"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000413 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000413">
+        <rdf:type rdf:resource="&obo;BFO_0000038"/>
+        <rdfs:label xml:lang="en">temporal interval of history of 230596244</rdfs:label>
+        <obo:SYNTH_ECO_00000456 rdf:resource="&obo;SYNTH_ECO_00000457"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000414 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000414">
+        <rdf:type rdf:resource="&obo;OBI_0001933"/>
+        <rdfs:label xml:lang="en">34.819013 degree value specification</rdfs:label>
+        <obo:IAO_0000004 rdf:datatype="&xsd;float">34.81901</obo:IAO_0000004>
+        <obo:IAO_0000039 rdf:resource="&obo;GEO_000000790"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000415 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000415">
+        <rdf:type rdf:resource="&obo;BFO_0000038"/>
+        <rdfs:label xml:lang="en">temporal interval of history of 230596245</rdfs:label>
+        <obo:SYNTH_ECO_00000456 rdf:resource="&obo;SYNTH_ECO_00000457"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000416 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000416">
+        <rdf:type rdf:resource="&obo;BFO_0000038"/>
+        <rdfs:label xml:lang="en">temporal interval of history of 230596243</rdfs:label>
+        <obo:SYNTH_ECO_00000456 rdf:resource="&obo;SYNTH_ECO_00000457"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000417 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000417">
+        <rdf:type rdf:resource="&obo;OBI_0001933"/>
+        <rdfs:label xml:lang="en">47 year value specification</rdfs:label>
+        <obo:IAO_0000004 rdf:datatype="&xsd;float">47.0</obo:IAO_0000004>
+        <obo:IAO_0000039 rdf:resource="&obo;SYNTH_ECO_00000432"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000418 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000418">
+        <rdf:type rdf:resource="&obo;OBI_0001933"/>
+        <rdfs:label xml:lang="en">12 year value specification</rdfs:label>
+        <obo:IAO_0000004 rdf:datatype="&xsd;float">12.0</obo:IAO_0000004>
+        <obo:IAO_0000039 rdf:resource="&obo;SYNTH_ECO_00000432"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000419 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000419">
+        <rdf:type rdf:resource="&obo;OMRSE_00000081"/>
+        <rdfs:label xml:lang="en">householder role of 230596245</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000420 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000420">
+        <rdf:type rdf:resource="&obo;OMRSE_00000057"/>
+        <rdfs:label xml:lang="en">school organization 00047967</rdfs:label>
+        <obo:OMIABIS_0000009 rdf:resource="&obo;SYNTH_ECO_00000448"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000421 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000421">
+        <rdf:type rdf:resource="&obo;OBI_0000245"/>
+        <rdfs:label xml:lang="en">workplace organization 403299811</rdfs:label>
+        <obo:OMIABIS_0000009 rdf:resource="&obo;SYNTH_ECO_00000451"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000422 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000422">
+        <rdf:type rdf:resource="http://www.ifomis.org/acgt/1.0/#Birth"/>
+        <rdfs:label xml:lang="en">birth of person 230596243</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000423 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000423">
+        <rdf:type rdf:resource="http://www.ifomis.org/acgt/1.0/#Birth"/>
+        <rdfs:label xml:lang="en">birth of person 230596244</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000424 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000424">
+        <rdf:type rdf:resource="http://www.ifomis.org/acgt/1.0/#Birth"/>
+        <rdfs:label xml:lang="en">birth of person 230596245</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000425 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000425">
+        <rdf:type rdf:resource="&obo;NCBITaxon_9606"/>
+        <rdfs:label xml:lang="en">person 230596243</rdfs:label>
+        <obo:RO_0002217 rdf:resource="&obo;SYNTH_ECO_00000429"/>
+        <obo:RO_0000053 rdf:resource="&obo;SYNTH_ECO_00000434"/>
+        <obo:GEO_000000328 rdf:resource="&obo;SYNTH_ECO_00000438"/>
+        <obo:RO_0000053 rdf:resource="&obo;SYNTH_ECO_00000446"/>
+        <obo:RO_0000056 rdf:resource="&obo;SYNTH_ECO_00000447"/>
+        <obo:GEO_000000328 rdf:resource="&obo;omrse/dao/Caucasian_or_White_Origin"/>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;NegativePropertyAssertion"/>
+        <owl:targetIndividual rdf:resource="&obo;OMRSE_00000005"/>
+        <owl:assertionProperty rdf:resource="&obo;RO_0000053"/>
+        <owl:sourceIndividual rdf:resource="&obo;SYNTH_ECO_00000425"/>
+    </rdf:Description>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000426 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000426">
+        <rdf:type rdf:resource="&obo;OBI_0001933"/>
+        <rdfs:label xml:lang="en">-92.236225 degree value specification</rdfs:label>
+        <obo:IAO_0000004 rdf:datatype="&xsd;float">-92.23622</obo:IAO_0000004>
+        <obo:IAO_0000039 rdf:resource="&obo;GEO_000000790"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000427 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000427">
+        <rdf:type rdf:resource="&obo;NCBITaxon_9606"/>
+        <rdfs:label xml:lang="en">person 230596244</rdfs:label>
+        <obo:RO_0000053 rdf:resource="&obo;SYNTH_ECO_00000002"/>
+        <obo:RO_0002217 rdf:resource="&obo;SYNTH_ECO_00000430"/>
+        <obo:RO_0000053 rdf:resource="&obo;SYNTH_ECO_00000435"/>
+        <obo:GEO_000000328 rdf:resource="&obo;SYNTH_ECO_00000438"/>
+        <obo:GEO_000000328 rdf:resource="&obo;omrse/dao/Caucasian_or_White_Origin"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000428 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000428">
+        <rdf:type rdf:resource="&obo;NCBITaxon_9606"/>
+        <rdfs:label xml:lang="en">person 230596245</rdfs:label>
+        <obo:RO_0000053 rdf:resource="&obo;SYNTH_ECO_00000003"/>
+        <obo:RO_0000053 rdf:resource="&obo;SYNTH_ECO_00000419"/>
+        <obo:RO_0002217 rdf:resource="&obo;SYNTH_ECO_00000431"/>
+        <obo:RO_0000053 rdf:resource="&obo;SYNTH_ECO_00000436"/>
+        <obo:GEO_000000328 rdf:resource="&obo;SYNTH_ECO_00000438"/>
+        <obo:RO_0000053 rdf:resource="&obo;SYNTH_ECO_00000444"/>
+        <obo:RO_0000056 rdf:resource="&obo;SYNTH_ECO_00000445"/>
+        <obo:GEO_000000328 rdf:resource="&obo;omrse/dao/Caucasian_or_White_Origin"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000429 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000429">
+        <rdf:type rdf:resource="&obo;BFO_0000182"/>
+        <rdfs:label xml:lang="en">history of person 230596243</rdfs:label>
+        <obo:BFO_0000155 rdf:resource="&obo;SYNTH_ECO_00000416"/>
+        <obo:RO_0002224 rdf:resource="&obo;SYNTH_ECO_00000422"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000430 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000430">
+        <rdf:type rdf:resource="&obo;BFO_0000182"/>
+        <rdfs:label xml:lang="en">history of person 230596244</rdfs:label>
+        <obo:BFO_0000155 rdf:resource="&obo;SYNTH_ECO_00000413"/>
+        <obo:RO_0002224 rdf:resource="&obo;SYNTH_ECO_00000423"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000431 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000431">
+        <rdf:type rdf:resource="&obo;BFO_0000182"/>
+        <rdfs:label xml:lang="en">history of person 230596245</rdfs:label>
+        <obo:BFO_0000155 rdf:resource="&obo;SYNTH_ECO_00000415"/>
+        <obo:RO_0002224 rdf:resource="&obo;SYNTH_ECO_00000424"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000432 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000432">
+        <rdf:type rdf:resource="http://purl.org/obo/owl/UO#UO_0000003"/>
+        <rdfs:label xml:lang="en">year</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000434 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000434">
+        <rdf:type rdf:resource="&obo;OMRSE_00000008"/>
+        <rdfs:label xml:lang="en">230596243 gender</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000435 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000435">
+        <rdf:type rdf:resource="&obo;OMRSE_00000009"/>
+        <rdfs:label xml:lang="en">230596244 gender</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000436 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000436">
+        <rdf:type rdf:resource="&obo;OMRSE_00000008"/>
+        <rdfs:label xml:lang="en">230596245 gender</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000437 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000437">
+        <rdf:type rdf:resource="&obo;OMRSE_00000074"/>
+        <rdfs:label xml:lang="en">housing unit 178415459</rdfs:label>
+        <obo:RO_0002217 rdf:resource="&obo;SYNTH_ECO_00000439"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000438 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000438">
+        <rdf:type rdf:resource="&obo;OMRSE_00000076"/>
+        <rdfs:label xml:lang="en">household 178415459</rdfs:label>
+        <obo:RO_0000056 rdf:resource="&obo;SYNTH_ECO_00000439"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000439 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000439">
+        <rdf:type rdf:resource="&obo;BFO_0000015"/>
+        <rdfs:label xml:lang="en">realization of residence function of housing unit 178415459</rdfs:label>
+        <obo:BFO_0000066 rdf:resource="&obo;SYNTH_ECO_00000437"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000440 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000440">
+        <rdf:type rdf:resource="&obo;OBI_0001620"/>
+        <rdfs:label xml:lang="en">latitude measurement datum of housing unit 178415459</rdfs:label>
+        <obo:IAO_0000136 rdf:resource="&obo;SYNTH_ECO_00000437"/>
+        <obo:OBI_0001938 rdf:resource="&obo;SYNTH_ECO_00000442"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000441 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000441">
+        <rdf:type rdf:resource="&obo;OBI_0001621"/>
+        <rdfs:label xml:lang="en">longitude measurement datum of housing unit 178415459</rdfs:label>
+        <obo:IAO_0000136 rdf:resource="&obo;SYNTH_ECO_00000437"/>
+        <obo:OBI_0001938 rdf:resource="&obo;SYNTH_ECO_00000443"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000442 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000442">
+        <rdf:type rdf:resource="&obo;OBI_0001933"/>
+        <rdfs:label xml:lang="en">34.8097392 degree value specification</rdfs:label>
+        <obo:IAO_0000004 rdf:datatype="&xsd;float">34.80974</obo:IAO_0000004>
+        <obo:IAO_0000039 rdf:resource="&obo;GEO_000000790"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000443 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000443">
+        <rdf:type rdf:resource="&obo;OBI_0001933"/>
+        <rdfs:label xml:lang="en">-92.2189783 degree value specification</rdfs:label>
+        <obo:IAO_0000004 rdf:datatype="&xsd;float">-92.21898</obo:IAO_0000004>
+        <obo:IAO_0000039 rdf:resource="&obo;GEO_000000790"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000444 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000444">
+        <rdf:type rdf:resource="&obo;OMRSE_00000077"/>
+        <rdfs:label xml:lang="en">employee role of person 230596245</rdfs:label>
+        <obo:RO_0000059 rdf:resource="&obo;SYNTH_ECO_00000460"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000445 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000445">
+        <rdf:type rdf:resource="&obo;BFO_0000015"/>
+        <rdfs:label xml:lang="en">realization of employee role of person 230596245</rdfs:label>
+        <obo:BFO_0000066 rdf:resource="&obo;SYNTH_ECO_00000451"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000446 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000446">
+        <rdf:type rdf:resource="&obo;OMRSE_00000058"/>
+        <rdfs:label xml:lang="en">student role of person 230596243</rdfs:label>
+        <OBO_REL:realized_by rdf:resource="&obo;SYNTH_ECO_00000447"/>
+        <obo:RO_0000059 rdf:resource="&obo;SYNTH_ECO_00000458"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000447 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000447">
+        <rdf:type rdf:resource="&obo;BFO_0000015"/>
+        <rdfs:label xml:lang="en">realization of student role of person 230596243</rdfs:label>
+        <obo:BFO_0000066 rdf:resource="&obo;SYNTH_ECO_00000448"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000448 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000448">
+        <rdf:type rdf:resource="&obo;OMRSE_00000064"/>
+        <rdfs:label xml:lang="en">school facility 00047967</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000449 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000449">
+        <rdf:type rdf:resource="&obo;OBI_0001620"/>
+        <rdfs:label xml:lang="en">latitude measurement datum of school facility 00047967</rdfs:label>
+        <obo:OBI_0001938 rdf:resource="&obo;SYNTH_ECO_00000414"/>
+        <obo:IAO_0000136 rdf:resource="&obo;SYNTH_ECO_00000448"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000450 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000450">
+        <rdf:type rdf:resource="&obo;OBI_0001621"/>
+        <rdfs:label xml:lang="en">longitude measurement datum of school facility 00047967</rdfs:label>
+        <obo:OBI_0001938 rdf:resource="&obo;SYNTH_ECO_00000426"/>
+        <obo:IAO_0000136 rdf:resource="&obo;SYNTH_ECO_00000448"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000451 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000451">
+        <rdf:type rdf:resource="&obo;OMRSE_00000078"/>
+        <rdfs:label xml:lang="en">workplace facility 403299811</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000452 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000452">
+        <rdf:type rdf:resource="&obo;OBI_0001620"/>
+        <rdfs:label xml:lang="en">latitude measurement datum of workplace facility 403299811</rdfs:label>
+        <obo:IAO_0000136 rdf:resource="&obo;SYNTH_ECO_00000451"/>
+        <obo:OBI_0001938 rdf:resource="&obo;SYNTH_ECO_00000454"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000453 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000453">
+        <rdf:type rdf:resource="&obo;OBI_0001621"/>
+        <rdfs:label xml:lang="en">longitude measurement datum of workplace facility 403299811</rdfs:label>
+        <obo:IAO_0000136 rdf:resource="&obo;SYNTH_ECO_00000451"/>
+        <obo:OBI_0001938 rdf:resource="&obo;SYNTH_ECO_00000455"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000454 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000454">
+        <rdf:type rdf:resource="&obo;OBI_0001933"/>
+        <rdfs:label xml:lang="en">34.306091 degree value specification</rdfs:label>
+        <obo:IAO_0000004 rdf:datatype="&xsd;float">34.30609</obo:IAO_0000004>
+        <obo:IAO_0000039 rdf:resource="&obo;GEO_000000790"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000455 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000455">
+        <rdf:type rdf:resource="&obo;OBI_0001933"/>
+        <rdfs:label xml:lang="en">-92.086231 degree value specification</rdfs:label>
+        <obo:IAO_0000004 rdf:datatype="&xsd;float">-92.08623</obo:IAO_0000004>
+        <obo:IAO_0000039 rdf:resource="&obo;GEO_000000790"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000457 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000457">
+        <rdf:type rdf:resource="&obo;BFO_0000148"/>
+        <rdfs:label xml:lang="en">April 2 2010 00:00.000</rdfs:label>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000458 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000458">
+        <rdf:type rdf:resource="&obo;IAO_0021004"/>
+        <rdfs:label xml:lang="en">socio-legal generic dependent continuant of student 230596243</rdfs:label>
+        <obo:OBI_0000312 rdf:resource="&obo;SYNTH_ECO_00000459"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000459 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000459">
+        <rdf:type rdf:resource="&obo;IAO_0021005"/>
+        <rdfs:label xml:lang="en">declaration of socio-legal generic dependent continuant of student 230596243</rdfs:label>
+        <obo:RO_0002218 rdf:resource="&obo;SYNTH_ECO_00000420"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000460 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000460">
+        <rdf:type rdf:resource="&obo;IAO_0021004"/>
+        <rdfs:label xml:lang="en">socio-legal generic dependent continuant of employee 230596245</rdfs:label>
+        <obo:OBI_0000312 rdf:resource="&obo;SYNTH_ECO_00000461"/>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/SYNTH_ECO_00000461 -->
+
+    <owl:NamedIndividual rdf:about="&obo;SYNTH_ECO_00000461">
+        <rdf:type rdf:resource="&obo;IAO_0021005"/>
+        <rdfs:label xml:lang="en">declaration of socio-legal generic dependent continuant of employee 230596245</rdfs:label>
+        <obo:RO_0002218 rdf:resource="&obo;SYNTH_ECO_00000421"/>
+    </owl:NamedIndividual>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="&obo;OMRSE_00000005">
+        <obo:IAO_0000111 xml:lang="en">party to a marriage contract punned instance</obo:IAO_0000111>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
